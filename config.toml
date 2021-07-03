@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "/"
+baseURL = ""
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross"
