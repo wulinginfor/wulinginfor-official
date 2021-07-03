@@ -2,7 +2,7 @@
 baseURL = "http://examplesite.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "wulinginfor-official"
+theme = "kross"
 title = "武陵資讀"
 
 # css plugins
