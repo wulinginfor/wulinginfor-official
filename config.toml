@@ -29,25 +29,25 @@ link = "plugins/google-map/map.js"
 
 
 # menu
+# [[menu.main]]
+# URL = "about"
+# name = "關於武陵資讀"
+# weight = 1
+
 [[menu.main]]
-URL = "about"
-name = "關於武陵資讀"
+URL = "announcement"
+name = "公告"
 weight = 1
 
-[[menu.main]]
-URL = "blog"
-name = "公告"
-weight = 2
+# [[menu.main]]
+# URL = "portfolio"
+# name = "Portfolio"
+# weight = 3
 
 [[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 3
-
-[[menu.main]]
-URL = "contact"
+URL = "register"
 name = "報名"
-weight = 4
+weight = 2
 
 
 # default parameters
@@ -93,22 +93,22 @@ enable = true
 expire_days = 2
 
 # social site
-[[params.social]]
-icon = "ti-facebook"
-URL = "#"
+# [[params.social]]
+# icon = "ti-facebook"
+# URL = "#"
 
-[[params.social]]
-icon = "ti-instagram"
-URL = "#"
+# [[params.social]]
+# icon = "ti-instagram"
+# URL = "#"
 
-[[params.social]]
-icon = "ti-dribbble"
-URL = "#"
+# [[params.social]]
+# icon = "ti-dribbble"
+# URL = "#"
 
-[[params.social]]
-icon = "ti-twitter-alt"
-URL = "#"
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# URL = "#"
 
 [[params.social]]
 icon = "fab fa-discord"
-URL = "#"
+URL = "https://discord.gg/aDuj8HEyTn"
