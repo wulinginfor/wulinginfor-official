@@ -115,9 +115,9 @@ expire_days = 2
 # icon = "ti-twitter-alt"
 # URL = "#"
 
-[[params.social]]
-icon = "fab fa-discord"
-URL = "https://discord.gg/aDuj8HEyTn"
+# [[params.social]]
+# icon = "fab fa-discord"
+# URL = "https://discord.gg/aDuj8HEyTn"
 
 # [markup]
 #   [markup.goldmark]
