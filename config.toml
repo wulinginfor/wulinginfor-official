@@ -1,7 +1,7 @@
 # default configuration
 baseURL = "https://wulinginfor.tk/"
 languageCode = "en-us"
-summaryLength = "10"
+summaryLength = "5"
 theme = "kross"
 title = "武陵資讀"
 
@@ -34,6 +34,7 @@ link = "plugins/google-map/map.js"
 # name = "關於武陵資讀"
 # weight = 1
 
+
 [[menu.main]]
 URL = "announcement"
 name = "公告"
@@ -49,6 +50,11 @@ URL = "register"
 name = "報名"
 weight = 2
 
+[[menu.main]]
+URL = "http://wloj.wlsh.tyc.edu.tw/"
+name = "WLOJ"
+weight = 3
+
 
 # default parameters
 [params]
@@ -58,11 +64,11 @@ logo = "images/logo.png"
 theme_color = "#004266"
 # contact info
 # phone = "+880 2544 658 256"
-email = "wuling.infor@gmail.com"
-address = "125/A, CA Commercial Area, California, USA"
+# email = "wuling.infor@gmail.com"
+# address = "125/A, CA Commercial Area, California, USA"
 # meta description
-author = "Johnathan Smith"
-description = "This is meta description"
+author = "李杰穎"
+description = "武陵高中資訊讀書會網站"
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
@@ -112,3 +118,24 @@ expire_days = 2
 [[params.social]]
 icon = "fab fa-discord"
 URL = "https://discord.gg/aDuj8HEyTn"
+
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.extensions]
+#       definitionList = true
+#       footnote = true
+#       linkify = true
+#       strikethrough = true
+#       table = true
+#       taskList = true
+#       typographer = true
+#     [markup.goldmark.parser]
+#       autoHeadingID = true
+#       autoHeadingIDType = "github"
+#       [markup.goldmark.parser.attribute]
+#         block = false
+#         title = true
+#     [markup.goldmark.renderer]
+#       hardWraps = false
+#       unsafe = false
+#       xhtml = false

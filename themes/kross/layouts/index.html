@@ -15,12 +15,12 @@
     <div class="layer" id="l2">
       <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
     </div>
-    <!-- <div class="layer" id="l3">
-      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">
-    </div> -->
-    <!-- <div class="layer" id="l4">
-      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">
-    </div> -->
+    <div class="layer" id="l3">
+      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" style="display: none" alt="bg-shape">
+    </div>
+    <div class="layer" id="l4">
+      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" style="display: none"  alt="bg-shape">
+    </div>
     <div class="layer" id="l5">
       <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">
     </div>
@@ -163,9 +163,9 @@
           <h2 class="section-title">{{ .title | markdownify }}</h2>
         </div>
         {{ range .item }}
-        <div class="col-md-4 mb-4">
+        <div class="col-md-6 mb-4">
           <div class="card {{if .highlighted }} active-bg-primary {{end}} hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
+            <div class="card-body px-4 py-5">
               <i class="{{.icon }} icon mb-5 d-inline-block"></i>
               <h4 class="mb-4">{{.title}}</h4>
               <p>{{.content | markdownify}}</p>

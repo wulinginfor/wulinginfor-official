@@ -33,8 +33,8 @@
 {{ end }}
 
 <!-- footer -->
-<!-- <footer class="bg-dark footer-section">
-  <div class="section">
+<footer class="bg-dark">
+  <!-- <div class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -51,11 +51,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="border-top text-center border-dark py-5">
     <p class="mb-0 text-light">{{ site.Params.copyright | markdownify }}</p>
   </div>
-</footer> -->
+</footer>
 <!-- /footer -->
 
 {{ "<!-- Google Map API -->" | safeHTML }}
@@ -77,7 +77,7 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+	此網站使用cookies。如果想要繼續使用此網站，你必須同意使用。 <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">我同意</span>
 </div>
 <script>
 	(function ($) {

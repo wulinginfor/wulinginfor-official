@@ -177,8 +177,9 @@ body {
 
 ol,
 ul {
-  list-style-type: none;
-  margin: 0
+  /* list-style-type: none; */
+  line-height:150%;
+  margin: 10;
 }
 
 img {
