@@ -49,14 +49,23 @@ h1,
 
   h1,
   .h1 {
-    font-size: 55px
+    font-size: 50px
   }
+
+  img[class*="bg-shape-"],
+  .layer {
+    display: none;
+  }
+
+  
 }
 
 h2,
 .h2 {
   font-size: 60px
 }
+
+
 
 @media(max-width:991px) {
 
