@@ -18,7 +18,7 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c
+  color: #4c4c4c;
 }
 
 p {
@@ -26,7 +26,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.5;
-  font-family: roboto, sans-serif
+  font-family: roboto, sans-serif;
 }
 
 h1,
@@ -355,7 +355,7 @@ a:hover {
 }
 
 .shadow {
-  box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
+  box-shadow: 0 18px 39.1px 6.9px rgba(124, 163, 235, 0.171) !important
 }
 
 .bg-dark {
@@ -615,11 +615,11 @@ textarea.form-control {
 }
 
 .hover-shadow {
-  transition: .2s ease
+  transition: .3s ease
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 18px 40px 8px rgba(224, 241, 255, .54) !important
+  box-shadow: 0 18px 40px 8px rgba(224, 241, 255, 0.795) !important;
 }
 
 .hover-wrapper {
@@ -753,7 +753,8 @@ blockquote {
 }
 
 .content * {
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  scroll-margin-top: 135px;
 }
 
 .content strong {
@@ -926,4 +927,9 @@ blockquote {
 
 .project-meta p{
   margin-bottom: 0;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
 }
