@@ -119,23 +119,23 @@ expire_days = 2
 # icon = "fab fa-discord"
 # URL = "https://discord.gg/aDuj8HEyTn"
 
-# [markup]
-#   [markup.goldmark]
-#     [markup.goldmark.extensions]
-#       definitionList = true
-#       footnote = true
-#       linkify = true
-#       strikethrough = true
-#       table = true
-#       taskList = true
-#       typographer = true
-#     [markup.goldmark.parser]
-#       autoHeadingID = true
-#       autoHeadingIDType = "github"
-#       [markup.goldmark.parser.attribute]
-#         block = false
-#         title = true
-#     [markup.goldmark.renderer]
-#       hardWraps = false
-#       unsafe = false
-#       xhtml = false
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
