@@ -54,7 +54,13 @@ weight = 2
 URL = "http://wloj.wlsh.tyc.edu.tw/"
 name = "WLOJ"
 weight = 3
+parent = "站外連結"
 
+[[menu.main]]
+URL = "https://discord.gg/aDuj8HEyTn"
+name = '武陵資讀 Discord'
+weight = 4
+parent = "站外連結"
 
 # default parameters
 [params]
@@ -115,9 +121,9 @@ expire_days = 2
 # icon = "ti-twitter-alt"
 # URL = "#"
 
-# [[params.social]]
-# icon = "fab fa-discord"
-# URL = "https://discord.gg/aDuj8HEyTn"
+[[params.social]]
+icon = "fab fa-discord"
+URL = "https://discord.gg/aDuj8HEyTn"
 
 [markup]
   [markup.goldmark]
