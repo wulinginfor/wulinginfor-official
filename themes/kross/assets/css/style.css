@@ -761,8 +761,8 @@ blockquote {
   /* font-family: playfair display, serif; */
   /* font-size: 22px; */
   font-weight: 700;
-  color: #660000;
-  text-decoration: underline;
+  color: var(--success);
+  /* text-decoration: underline; */
   /* display: inherit; */
   /* line-height: 1.5 */
 }
