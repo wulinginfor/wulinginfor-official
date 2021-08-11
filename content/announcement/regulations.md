@@ -4,6 +4,7 @@ date: 2021-08-11T12:14:34+06:00
 image: "images/logo_2.png"
 description: "This is meta description."
 draft: false
+label: "呂昊謙"
 ---
 
 ### 通則(語法班與算法班皆適用)
