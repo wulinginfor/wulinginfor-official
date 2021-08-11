@@ -29,6 +29,9 @@ p {
   font-family: roboto, sans-serif;
 }
 
+
+
+
 h1,
 h2,
 h3,
@@ -45,6 +48,7 @@ h1,
   font-size: 80px
 }
 
+
 @media(max-width:991px) {
 
   h1,
@@ -56,6 +60,14 @@ h1,
   .layer {
     display: none;
   }
+
+  
+  iframe {
+
+      max-height: 450px;
+
+  }
+  
 
   
 }
@@ -761,8 +773,8 @@ blockquote {
   /* font-family: playfair display, serif; */
   /* font-size: 22px; */
   font-weight: 700;
-  color: #660000;
-  text-decoration: underline;
+  color: var(--success);
+  /* text-decoration: underline; */
   /* display: inherit; */
   /* line-height: 1.5 */
 }
