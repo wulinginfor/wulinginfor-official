@@ -2,7 +2,7 @@
 title: "課程大綱與報名流程"
 date: 2021-07-05T12:14:34+06:00
 image: "images/logo_2.png"
-description: "This is meta description."
+summary: "報名資格：全體武陵學生。<br>上課時間：每周二及每周四的 18:00 ~ 20:50。<br> ..."
 draft: false
 ---
 

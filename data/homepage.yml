@@ -155,5 +155,5 @@ clients_logo_slider:
 # blog
 blog:
   enable : true
-  title : "Blogs"
-  # blog post comes from "content/blog" folder
+  title : "公告"
+  # blog post comes from "content/announcement" folder

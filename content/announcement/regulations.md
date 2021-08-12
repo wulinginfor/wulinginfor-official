@@ -2,7 +2,7 @@
 title: "考試注意事項與規則"
 date: 2021-08-11T12:14:34+06:00
 image: "images/rule.png"
-description: "This is meta description."
+summary: "壹、注意事項: <br> 一、入場時將查驗證件，請攜帶任一有效證件正本(身分證、健保卡、國中/高中學生證、護照、駕照、居留證)，未攜帶有效證件正本者 ..."
 draft: false
 label: "呂昊謙"
 ---
