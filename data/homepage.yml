@@ -4,10 +4,10 @@ banner:
 
 # about
 about:
-  enable : false
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  enable : true
+  content : "找不到和你一樣對程式有興趣的夥伴嗎？覺得學校的程式課程太慢嗎？那你應該要來資讀！"
   button:
-    enable : true
+    enable : false
     label : "know more"
     URL : "about"
 
@@ -55,7 +55,7 @@ experience:
 # education
 education:
   enable : true
-  title : "加入資讀的優勢"
+  title : "加入資讀的六大優勢"
   item:
     - title : "結交志同道合的朋友"
       year : "優勢 1"
@@ -72,6 +72,14 @@ education:
     - title : "定期舉辦競賽"
       year : "優勢 4"
       academy : "在學習的過程中檢驗自己掌握的知識"
+
+    - title : "擁有自己的OJ(評測系統)"
+      year : "優勢 5"
+      academy : "精選題目，讓你不做白工。有問題時，講師可以從遠端直接看到你的code"
+
+    - title : "升任講師或教學助理"
+      year : "優勢 6"
+      academy : "成績優秀，有機會在下一學年度升任，取得學習歷程"    
 
 # service
 service:
