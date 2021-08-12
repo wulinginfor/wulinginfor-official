@@ -1,7 +1,7 @@
 ---
 title: "考試注意事項與規則"
 date: 2021-08-11T12:14:34+06:00
-image: "images/logo_2.png"
+image: "images/rule.png"
 description: "This is meta description."
 draft: false
 label: "呂昊謙"
