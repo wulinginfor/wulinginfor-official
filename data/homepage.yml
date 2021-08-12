@@ -54,24 +54,24 @@ experience:
 
 # education
 education:
-  enable : false
-  title : "Education"
+  enable : true
+  title : "加入資讀的優勢"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title : "結交志同道合的朋友"
+      year : "優勢 1"
+      academy : "還可以組隊參賽"
       
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
+    - title : "APCS成績提升"
+      year : "優勢 2"
+      academy : "而且完全免費"
       
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
+    - title : "與優秀的講師學習"
+      year : "優勢 3"
+      academy : "有機會遇到MIT及旺宏獎的學長哦"
       
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "定期舉辦競賽"
+      year : "優勢 4"
+      academy : "在學習的過程中檢驗自己掌握的知識"
 
 # service
 service:
@@ -103,9 +103,9 @@ testimonial:
   enable : true
   title : "學員心得"
   item:
-    - name : "李杰穎"
+    - name : "abcd"
       image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
+      designation : ""
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
       
     - name : "呂昊謙"
@@ -154,6 +154,6 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : false
+  enable : true
   title : "Blogs"
   # blog post comes from "content/blog" folder
