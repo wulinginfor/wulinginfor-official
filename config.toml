@@ -76,7 +76,7 @@ theme_color = "#004266"
 author = "管理員"
 description = "武陵高中資訊讀書會網站"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "G-K6XD1XJ044" # Your ID
 # copyright
 copyright = "聯絡信箱：wuling.infor@gmail.com | Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 
