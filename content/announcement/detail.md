@@ -96,3 +96,5 @@ draft: false
 
 
  <a href="/register" class="btn btn-sm btn-primary">開始報名</a>
+
+ 聯絡信箱：<wuling.infor@gmail.com>
