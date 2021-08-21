@@ -8,7 +8,9 @@ draft: false
 
 ### 報名資格
 
-全體武陵學生
+全體武陵學生、校外高中學生 
+
+請注意：校外生優先順序會在武陵學生之後。若武陵學生報名名額超過招生人數，校外生將無法參加考試。
 
 ### 上課時間
 
@@ -57,7 +59,8 @@ draft: false
 
 **<font color=#000000>1. 線上填寫報名表</font>**：
    
-   [報名連結](/register)
+   [武陵學生報名連結](/register)
+   [校外學生報名連結](https://forms.gle/pSpwnGd7SWZzheF47)
    
    請於 **2021/08/31 23:59:59** 前完成此步驟，報名截止後將不會開放填寫。
    
@@ -96,5 +99,6 @@ draft: false
 
 
  <a href="/register" class="btn btn-sm btn-primary">開始報名</a>
+ <a href="https://forms.gle/pSpwnGd7SWZzheF47" class="btn btn-sm btn-primary">校外生報名表單連結</a>
 
  聯絡信箱：<wuling.infor@gmail.com>
