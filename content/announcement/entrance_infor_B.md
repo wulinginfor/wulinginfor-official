@@ -21,4 +21,7 @@ A試場：
 
 B試場：
 
-<script src=https://script.google.com/macros/s/AKfycbwhZG2OWMvGVpzjYoh4EktF7DIDo4A9wGokcRNbZS4OW0vcB9I2EeGOPCk-VJ9zz2YXWA/exec></script>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://script.google.com/macros/s/AKfycby8HHYjkJsJibaNhtX1sR25lSjefqTTFmTcB4ftIlwUleOSlR0FnhJ-La67rwexF72qdA/exec" target="_top"></iframe>
+</div>
